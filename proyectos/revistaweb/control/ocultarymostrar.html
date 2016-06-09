@@ -1,0 +1,30 @@
+
+
+<script> <!-- permite mostrar o esconder los datos del conductor -->
+function pagoOnChange(sel) {
+ var porId=document.getElementById("mismo").checked;
+     //alert(porId); 
+	  if (porId){
+           divC = document.getElementById("nCuenta");
+           divC.style.display = "";
+      }else{
+           divC = document.getElementById("nCuenta");
+           divC.style.display="none";
+      }
+}
+</script>
+
+
+ <h4><input type="checkbox" id="mismo" onChange="pagoOnChange(this)"> Agregar una Persona</h4>
+
+<!--Cuando no estoy modificando-->
+$mostrar="display:none;";
+<!--Cuando estoy modificando-->
+$mostrar="";
+<!--Al principio del formulario-->
+<div  id="nCuenta" style="<?php echo $mostrar ?>">
+
+
+
+<!--Despues del Formulario-->
+</div>

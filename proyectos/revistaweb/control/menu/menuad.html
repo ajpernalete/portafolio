@@ -1,0 +1,53 @@
+				<?php 
+				$id=$_GET['idm'];
+
+$menu[1]="";
+$menu[2]="";
+$menu[3]="";
+$menu[4]="";
+$menu[5]="";
+$menu[6]="";
+$menu[7]="";
+$menu[8]="";
+$menu[9]="";
+
+				if($id==1) $menu[1]="class='active'";
+				if($id==2) $menu[2]="class='active'";
+				if($id==3) $menu[3]="class='active'";
+				if($id==4) $menu[4]="class='active'";
+				if($id==5) $menu[5]="class='active'";
+				if($id==6) $menu[6]="class='active'";
+				if($id==7) $menu[7]="class='active'";
+				if($id==8) $menu[8]="class='active'";
+				if($id==9) $menu[9]="class='active'";
+
+				 ?>
+
+
+
+
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>                        
+							</button>
+							<a class="navbar-brand" href="#">Vzla Box Fitness</a>
+						</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav">
+								<li <?php echo $menu[1]?>><a href="sistema.php?idm=1">Inicio</a></li>
+								<li <?php echo $menu[2]?>><a href="publicaciones.php?idm=2">Publicaciones</a></li>
+								<li <?php echo $menu[3]?>><a href="categorias.php?idm=3">Categorias</a></li>
+								<li <?php echo $menu[4]?>><a href="subcategorias.php?idm=4">Subcategorias</a></li>
+								<li <?php echo $menu[5]?>><a href="usuarios.php?idm=5">Usuarios</a></li>
+								<li <?php echo $menu[6]?>><a href="tipodeusuarios.php?idm=6">Tipo de Usuarios</a></li>
+								<li <?php echo $menu[7]?>><a href="auditoria.php?idm=7">Auditoria</a></li>
+								<li <?php echo $menu[8]?>><a href="control/session/cerrarsesion.php?idm=8">Salir</a></li>
+								<li <?php echo $menu[9]?>><a href="#?id=9">Contacto</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>

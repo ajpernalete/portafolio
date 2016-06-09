@@ -1,0 +1,29 @@
+<link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap.css">
+<!--<script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>-->
+		<script type="text/javascript" language="javascript" src="js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" language="javascript" src="js/dataTables.bootstrap.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(document).ready(function() {
+				 $('#example').dataTable( {
+					 //ordering: false, me elimina el ordenamiento y la funcion de ordenar al darle clicl a los encabezados
+					   "order": [[ 0, "desc" ]],
+					"language": {
+					"sProcessing":   "Procesando...",
+					"sLengthMenu":   "Mostrar _MENU_ registros",
+					"sZeroRecords":  "No se encontraron resultados",
+					"sInfo":         "Mostrando desde _START_ hasta _END_ de _TOTAL_ registros",
+					"sInfoEmpty":    "Mostrando desde 0 hasta 0 de 0 registros",
+					"sInfoFiltered": "(filtrado de _MAX_ registros en total)",
+					"sInfoPostFix":  "",
+					"sSearch":       "Buscar:",
+					"sUrl":          "",
+					"oPaginate": {
+						"sFirst":    "Primero",
+						"sPrevious": "Anterior",
+						"sNext":     "Siguiente",
+						"sLast":     "Último"
+	}
+}
+    } );
+} );
+		</script>

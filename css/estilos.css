@@ -1,0 +1,33 @@
+
+.redes{padding-top:20px;-webkit-padding-top:20px;-moz-padding-top:20px;-ms-padding-top:20px;-o-padding-top:20px;
+	padding-bottom:20px;-webkit-padding-bottom:20px;-moz-padding-bottom:20px;-ms-padding-bottom:20px;-o-padding-bottom:20px;
+	color:#ddd;-webkit-color:#ddd;-moz-color:#ddd;-ms-color:#ddd;-o-color:#ddd;
+	margin-top:50px;-webkit-margin-top:50px;-moz-margin-top:50px;-ms-margin-top:50px;-o-margin-top:50px;
+	font-size:18px;-webkit-font-size:18px;-moz-font-size:18px;-ms-font-size:18px;-o-font-size:18px;}
+.activo:hover{text-decoration: none;-webkit-text-decoration: none-moz-text-decoration: none-ms-text-decoration: none-o-text-decoration: none;
+	color:#333;-webkit-color:#ddd;-moz-color:#ddd;-ms-color:#ddd;-o-color:#ddd;}
+.logo{padding-top:20px;-webkit-padding-top:20px;-moz-padding-top:20px;-ms-padding-top:20px;-o-padding-top:20px;
+	padding-bottom:20px;-webkit-padding-bottom:20px;-moz-padding-bottom:20px;-ms-padding-bottom:20px;-o-padding-bottom:20px;}
+footer{background:#006BD6;-webkit-background:#006BD6;-moz-background:#006BD6;-ms-background:#006BD6;-o-background:#006BD6;
+	margin-bottom: 0px;-webkit-margin-bottom: 0px;-moz-margin-bottom: 0px;-ms-margin-bottom: 0px;-o-margin-bottom: 0px;}
+.nopadding{padding: 0px;-webkit-padding: 0px;-moz-padding: 0px;-ms-padding: 0px;-o-padding: 0px;}
+.nomargin{margin: 0px;}
+.border{border: 1px;}
+.texto-form{color:#ddd;-webkit-color:#ddd;-moz-color:#ddd;-ms-color:#ddd;-o-color:#ddd;
+	font-size:18px;-webkit-font-size:18px;-moz-font-size:18px;-ms-font-size:18px;-o-font-size:18px;}
+
+	-webkit-
+	-moz-
+	-ms-
+	-o-
+
+	<div class="row">
+				<a href="http://www.facebook.com/aj.pernalete">
+				<div class="col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 logo">
+					<center><img src="img/face.png" class="img-responsive img-circle"></center>
+				</div>
+				<div class="col-md-2 col-sm-2 redes">
+					<center>AJ Pernalete</center>
+				</div>
+				</a>
+			</div>

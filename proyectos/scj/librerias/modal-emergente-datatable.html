@@ -1,0 +1,44 @@
+
+
+<script type="text/javascript" src="librerias/fancyapps-fancyBox-83bf93f/lib/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="librerias/fancyapps-fancyBox-83bf93f/source/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="librerias/fancyapps-fancyBox-83bf93f/source/jquery.fancybox.css" media="screen" />
+    
+    <script type="text/javascript">
+	$(document).ready(function(){ 
+	$(".fancybox").fancybox({ 
+		/*"autoScale" : false, */
+		/*"transitionIn" : "none", 
+		"transitionOut" : "none", */
+		"width" : 600, 
+		"height" : 500,
+		"type" : "iframe",
+		/*"autoSize"      : true,
+		"padding"   : 5,*/
+		
+	/*afterClose: function () { parent.location.reload(true); } esto permite actualizar la pagina padre*/
+   }); 
+});
+</script>   
+<script type="text/javascript" src="librerias/jquery.alerts-1.1/jquery.alerts.js"></script>
+<link rel="stylesheet" type="text/css" href="librerias/jquery.alerts-1.1/jquery.alerts.css"/>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("a.eliminar_dato").click( function(e) {
+  		e.preventDefault();
+  		var url = this.href;
+  		var titulo = this.title;
+  		jConfirm(titulo,'Accion !!', function(r) {
+    		if (r) 
+         		location.href = url;
+  			});
+		});
+
+
+});
+</script>
+<!-- para utilizar el datatable-->
+    <link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap.css" />
+    <script type="text/javascript" language="javascript" src="js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/dataTables.bootstrap.js"></script>
+     <?php include('paradatatable.html')?>

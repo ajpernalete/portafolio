@@ -1,0 +1,4 @@
+header, footer{height: 250px; background: #00B200;}
+footer{height: 150px;}
+.cmd{text-decoration: none; color: #444;}
+.cmd:hover{text-decoration: none;}

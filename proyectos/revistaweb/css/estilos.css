@@ -1,0 +1,28 @@
+.nopadding{padding: 0px;}
+.nomargin{margin: 0px;}
+.minititulo{text-decoration: none;}
+#logo{border-left: 5px solid #E01B45;width: 100% auto;background:#9A1630;}
+body {
+    background-image: url("../img/fondo.jpg");
+    background-attachment: fixed;
+}
+.carruselnoticia{
+	background: #1C1C1C;
+	border:4px solid #E01B45;
+	
+}
+.estilotexto{color:#E5EEFC;text-decoration:none;cursor:pointer; cursor: hand;font-size: 17px;}
+.estilotexto:hover{color:#E01B45;text-decoration:none;cursor:pointer; cursor: hand}
+.footer{background: #9A1630;height:300px;border-bottom: 20px solid #E01B45;}
+.redes{height: 50px; background: #E01B45;color: #E5EEFC;}
+.pub{background: #E01B45; border: 5px solid #1C1C1C; border-radius: 5px;margin-top:15px;}
+.pub-titulo{background: transparent; font-size: 30px; color: #1C1C1C;text-decoration:none;cursor:pointer; cursor: hand;margin: 15px 10px 10px 10px;}
+.pub-img{background: transparent;text-decoration:none;cursor:pointer; cursor: hand;}
+.pub-des{background: transparent;font-size: 18px; color: #E5EEFC; text-align: left;text-decoration:none;cursor:pointer; cursor: hand;margin: 15px 10px 10px 10px;}
+.piedefoto{border-radius: 5px; background: #1C1C1C; color: #E5EEFC; font-size: 15px; padding-left: 15px;padding-top: 8px;}
+.bd_sis{background: #fff;}
+.footer_sis{background: #9A1630;height:100px;border-bottom: 20px solid #E01B45;}
+oscuro = #1C1C1C 
+rojo = #E01B45
+claro = #E5EEFC
+vinotinto = #9A1630

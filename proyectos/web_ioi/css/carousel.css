@@ -1,0 +1,529 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #ddd;
+  font-family: 'Open Sans', sans-serif;
+  background: #444;
+}
+
+.nopadding{
+  padding: 0px;
+}
+/* estilo franja
+-------------------------------------------------- */
+.franja{
+  background: #444;
+  opacity: 0.5;
+  width: 100% auto;
+  position: relative;
+  z-index: 30;
+  height: 80px;
+  margin-bottom: -20%;
+}
+.franja2{
+  background: #333;
+  width: 100% auto;
+  position: relative;
+  z-index: 30;
+  height: 80px;
+  margin-bottom: -20%;
+}
+.img-responsive2{
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: 400px;
+}
+
+a{
+  color:#CA5F17;
+}
+a:active,a:hover{
+  color:#CA5F17;
+}
+.span8{
+  font-weight: normal;
+  font-size: 18px;
+  font: bold;
+  font-family: 'Oswald', sans-serif;
+  color: #444;
+}
+.span8 label,
+.span8 input{
+margin-bottom: 10px;
+margin-right: 20px;
+}
+.btn-margin{
+  margin-top: 10px;
+}
+
+/* fin estilo franja
+-------------------------------------------------- */
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.navbar {
+  background: transparent;
+  font-color:#ddd;
+  font-style:italic;
+  font-size:1.2em;
+  position:relative;
+  float: center;
+  margin-bottom: -20%;
+}
+.navbar-2 {
+  margin-bottom: 20px;
+}
+.navbar:active a{
+  background: blue;
+}
+.navbar li {
+  }
+.navbar-collapse{
+	padding-top:20px;
+	background:transparent;
+}
+.col-md-4 img{
+    padding-top: 20px;
+    text-align: center;
+	}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+      text-align:center;
+      padding: 0px;
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  text-align:right;
+}
+.carousel-caption h1 {
+	font-size: 5em;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  background-color: #555;
+}
+.fondo .item {
+border-radius: 20px;
+background-color: #999;
+}
+.carousel-inner > .item > img {
+margin: 0 auto;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+
+}
+.tamano {
+padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 2px;
+  text-align: center;
+
+}
+.tamano .col-lg-4 {
+  margin-bottom: 2px;
+  text-align: center;
+
+}
+.tamano h2{
+  font-weight: normal;
+  border-radius: 10px;
+  font-size: 40px;
+  font: bold;
+  font-family: 'Oswald', sans-serif;
+}
+.marketing h2 {
+  font-weight: normal;
+  border-radius: 10px;
+  font-size: 25px;
+  font: bold;
+  font-family: 'Oswald', sans-serif;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.justificar p{
+  text-align: justify;
+}
+.marketing h2 {
+  background-color:#CA5F17;
+  line-height: 70px;
+  color:#fff;
+  font-style:italic;
+  text-align:center;
+  text-transform: uppercase;
+}
+.tamano h2 {
+  background-color:#CA5F17;
+  line-height: 70px;
+  color:#fff;
+  font-style:italic;
+  text-align:center;
+  text-transform: uppercase;
+}
+.icoimg-border{
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  border-color: #CA5F17;
+  border-style: solid;
+  border-width: 3px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.icoimg-border:hover,
+.icoimg-border:focus{
+  border-color: #111;
+}
+.img-border{
+  border-radius: 25px;
+  border-color: #CA5F17;
+  border-style: solid;
+  border-width: 15px;
+}
+.foto {
+  padding-top: 45px;
+  padding-bottom: 35px;
+}
+.decora {    
+	position: relative;
+	text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.decora img {
+		text-align:center;
+   top: 50%;           /* here.. */
+    left: 50%;           /* here... */
+}
+.contenido {
+	padding-top:50px;
+	box-shadow:#060;
+	font-size:5em;
+	height: 500px;
+  line-height: 70px;
+    font-style:italic;
+    text-align:center;
+background-color: #cb2027;
+}
+.antFooter{
+	text-align:center;
+}
+.mapa {
+	padding-top:50px;
+}
+.naranja {
+	padding-top:10px;
+	height:2px;
+	background-color:#CA5F17;
+}
+.info {
+	padding-top:50px;
+}
+.nav-tabs > li, .nav-pills > li {
+  background: transparent;
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+.antFooter h1{
+	font-size:5em;
+}
+.contenido h1{
+	color:#fff;
+	text-shadow: #000 0 -1px;
+}
+.contenido i{
+	margin-top:10px;
+	color:#fff; 
+text-align:center;
+background-color:#cb2027;
+padding:10px;
+/*para Firefox*/
+-moz-border-radius: 15px 15px 15px 15px;
+/*para Safari y Chrome*/
+-webkit-border-radius: 15px 15px 15px 15px;
+/* para Opera */
+border-radius: 15px 15px 15px 15px;
+}
+.contenido i:hover
+{
+	    font-style:bold;
+background-color:#414141;
+color:#FFF;
+} 
+ .jumbotron {
+     position: relative;
+     background: none;
+     padding: 5px;
+     margin-bottom: 5px;
+     font-size: 10px;
+     font-weight: 200;
+     line-height: 2.1428571435;
+ }
+ .jumbotron:after {
+     content:"";
+     background: url("image.jpg");
+     opacity: 0.5;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;
+ }
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.pull-right {
+	font-size: 3em;
+  color: #CA5F17;
+}
+.footer {
+	margin-top:3px;
+	top:50px;
+	padding-top:3px;
+
+color:#ddd;
+font-weight:bold;
+}
+.text-copy{
+ font-size: 13px;
+ color: #ddd;
+ font-style: italic;
+}
+h3{
+  font-size: 20px;
+}
+h4{
+  font-size: 16px;
+}
+.well {
+	font-size:18px;
+	font-family: 'Oswald', serif;
+  border-radius: 20px;
+  background-color: #999;
+  border-color: #999;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left:  15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left:  0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+  .navbar-brand{
+	  height:100px;
+	}
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+  .navbar-2 {
+  margin-bottom: 20px;
+}
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+.navbar-2 {
+  margin-bottom: 20px;
+}
+  
+}
+@media (max-width: 990px) {
+
+.franja{
+  height: 80px;
+  margin-bottom: -8%;
+}
+.franja2{
+  height: 80px;
+  margin-bottom: -8%;
+}
+.navbar-2 {
+  margin-bottom: 20px;
+}
+}
+@media (max-width: 868px) {
+
+   .carousel-caption h1 {
+	font-size: 2em;
+}
+.franja{
+  height: 90px;
+  margin-bottom: -10%;
+}
+.franja2{
+  height: 90px;
+  margin-bottom: -10%;
+}
+.navbar-2 {
+  margin-bottom: 20px;
+}
+
+}
+@media (max-width: 768px) {
+  .navbar-inverse .navbar-collapse{
+    background: #CA5F17;
+    border-radius: 5px;
+  }
+  .franja{
+  height: 90px;
+  margin-bottom: -12%;
+}
+.franja2{
+  height: 90px;
+  margin-bottom: -12%;
+}
+.navbar-2 {
+  margin-bottom: 20px;
+}
+
+}
+@media (max-width: 650px) {
+
+.franja{
+  height: 80px;
+  margin-bottom: -12%;
+}
+.franja2{
+  height: 80px;
+  margin-bottom: -12%;
+}
+.navbar-2 {
+  margin-bottom: 20px;
+}
+}
+
+
+@media (max-width: 600px) {
+
+  .navbar-brand img{
+	  position:absolute;
+	  top:10px;
+	  padding-bottom:10px;
+	  bottom:200px;
+	  height:200px;
+	}
+.franja{
+  height: 90px;
+  margin-bottom: -14%;
+}
+.franja2{
+  height: 90px;
+  margin-bottom: -14%;
+}
+.navbar {margin-bottom: -20%;
+}
+.navbar-2 {
+  margin-bottom: 20px;
+}
+}
+
+@media (max-width: 550px) {
+
+.franja{
+  height: 90px;
+  margin-bottom: -17%;
+}
+.franja2{
+  height: 90px;
+  margin-bottom: -17%;
+}
+.navbar-2 {
+  margin-bottom: 20px;
+}
+}
+
+@media (max-width: 500px) {
+
+.franja{
+  height: 80px;
+  margin-bottom: -18%;
+}
+.franja2{
+  height: 80px;
+  margin-bottom: -18%;
+}
+.navbar-2 {
+  margin-bottom: 25px;
+}
+}

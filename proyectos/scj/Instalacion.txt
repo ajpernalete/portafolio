@@ -1,0 +1,19 @@
+Bienvenidos al manual de instalacion.
+
+1-instalar wampserver en tu ordenador.
+(dentro de la carpeta:descarga)
+2-ejecutar wampserver.
+3-abrir phpmyadmin.
+4-crear una base de datos de nombre
+"scjvalencia", con cotejamiento 
+utf8-general-ci.
+5-importar la BD en la carpeta sql llamada
+"scjvalencia.sql".
+6-Guardar la carpeta scj en el siguiente 
+directorio: c:wamp/www/scj.
+7-Abrir su navegador(google chrome recomendado)
+escribir en el url:localhost/scj/index.php
+8-guargar esa pagina en el escritorio para 
+facil acceso.
+7-Listo.
+

@@ -1,0 +1,20 @@
+<script type="text/javascript" src="jquery.alerts-1.1/jquery.alerts.js"></script>
+<link rel="stylesheet" type="text/css" href="jquery.alerts-1.1/jquery.alerts.css"/>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("a.eliminar_dato").click( function(e) {
+  		e.preventDefault();
+  		var url = this.href;
+  		var titulo = this.title;
+  		jConfirm(titulo,'Accion !!', function(r) {
+    		if (r) 
+         		location.href = url;
+  			});
+		});
+});
+</script>
+
+
+
+
+<a class="eliminar_dato" title="<?php echo 'Seguro que desea eliminar este registro:<br><h4><center>'.$nombre.'</h4><center>' ?>" href="sistema/gmarcas.php?modo=e&id=<?php echo $id ?>"><button type="button" class="btn btn-danger btn-xs">Eliminar</button></a>
